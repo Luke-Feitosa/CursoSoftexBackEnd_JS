@@ -1,0 +1,18 @@
+num1 = int(input("Digite o numero: "))
+num2 = int(input("Digite o numero: "))
+cond = input("Digite a operação: + , - , * , / ")
+if cond == "+":
+    num3 = num1 + num2
+    print(num3)
+elif cond == "-":
+    num3 = num1 - num2
+    print(num3)
+elif cond == "*":
+    num3 = num1 * num2
+    print(z)
+elif cond == "/":
+    num3 = num1 / num2
+    sobra = num1 % num2
+    print("valor:",num3, "sobra:",sobra)
+else:
+    print("Erro")
