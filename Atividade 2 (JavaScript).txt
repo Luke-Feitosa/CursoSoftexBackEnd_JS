@@ -1,6 +1,0 @@
-<script>
-console.log('Hello World');
-</script>
-
-
-Escolhi o VSCode pela versatilidade de opções para programar e diversas possibilidades de extensões para facilitar esse processo.
