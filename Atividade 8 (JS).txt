@@ -1,0 +1,15 @@
+var total
+var x1 = 1
+var x2 = 2
+
+function scan(){
+    return 'Sucesso!'
+}
+function soma(x1,x2){
+    return x1+x2
+}
+
+resultado = scan()
+console.log(scan)
+total = soma(x1,x2)
+console.log(total)
