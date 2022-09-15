@@ -1,0 +1,22 @@
+var banco = new Object
+banco.conta = conta
+banco.saldo = saldo
+banco.tipo = tipo
+banco.agencia = agencia
+
+function BuscarSaldo(){
+    console.log(banco.saldo)
+}
+function Deposito(deposito){
+    banco.saldo = banco.saldo+deposito
+}
+function SaqueSaldo (saque){
+    banco.saldo = banco.saldo-saque
+}
+
+BuscarSaldo()
+Deposito(100)
+BuscarSaldo()
+SaqueSaldo(10)
+BuscarSaldo
+console.log(banco.conta)
