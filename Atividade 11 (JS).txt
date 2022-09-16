@@ -1,0 +1,19 @@
+const funcionario = {
+    nome: 'Lucas',
+    idade: 31,
+    nacionalidade: 'brasileiro',
+    Comissoes: [1000, 1200, 1300, 1500]
+}    
+function checkStatus() {
+    for(const status in funcionario) {
+        console.log(`${status}: ${funcionario[status]}`)
+    }
+    console.log()
+}
+
+function checkcomissoes() {
+    console.log('Comissao: ')
+    for (const check of cliente.comissao) {
+        console.log(check)
+    }
+}
